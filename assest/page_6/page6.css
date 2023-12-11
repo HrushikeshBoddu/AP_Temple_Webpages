@@ -1,0 +1,101 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/* nav style start */
+.navbar{
+   background-color: orange;
+}
+
+.navbar a{
+   color: white;
+}
+.container-fluid button{
+   color: white;
+}
+.nav-item ul{
+   background-color: orange;
+}
+/* nav style end */
+
+.id1:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px gray ;
+}
+ .id1{
+     background-color: rgb(183, 183, 243);
+     border-radius: 15px;
+     width:100%
+ }
+ .id2:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px gray ;
+ }
+ .id2{
+    background-color:rgb(232, 175, 154);
+    border-radius: 15px;
+    width:100%
+ }
+ .id3:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px gray ;
+ }
+ .id3{
+    background-color:rgb(210, 241, 210);
+    border-radius: 15px;
+    width:100%
+ }
+ .id4:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 4px gray ;
+ }
+ .id4{
+    background-color:rgb(191, 242, 240);
+    border-radius: 15px;
+    width:100%
+ }
+ 
+#center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+}
+
+/* Modal start */
+#modalbutton{
+   position: absolute;
+   top: 85vh;
+   left: 87vw;
+   position: fixed;
+   height: auto;
+   width: auto;
+   border-radius: 40rem;
+   background: radial-gradient(circle, rgba(255,165,0,1) 16%, rgba(255,0,0,1) 100%);
+}
+/* Modal end *
+
+/* footer start */
+.footer{
+   border-top: 2px solid orange;
+   background-color:#fcde9c;
+}
+.bg_footer{
+   background-image: url(/assest/page-1/footer-bottom.0bdcf963.png);
+   background-repeat: no-repeat;
+   background-position-y:bottom;
+   background-size: 100vw;
+}
+/* footer end */
+
+
+/*Media query  */
+@media (min-width:320px) and (max-width:480px) {
+   /* to add */
+   #small_screen_logo{
+       width: 70vw;
+   }
+   /* to add */
+}
